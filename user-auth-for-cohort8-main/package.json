@@ -1,0 +1,19 @@
+{
+  "name": "victor-user-auth-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "check": "node --check index.js && node --check controller/userController.js && node --check model/userModel.js && node --check routes/userRoutes.js"
+  },
+  "keywords": [],
+  "author": "Victor Fabian",
+  "license": "ISC",
+  "description": "A CRUD user API created by Victor Fabian during TechCrush Cohort 8.",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.4"
+  }
+}
